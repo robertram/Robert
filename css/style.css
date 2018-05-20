@@ -1,3 +1,17 @@
 h1 {
-Color: red;
-}
+  color: #ffff00;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  color: red;
+  width: 200px;
+  height: 200px;
+  display: block; }
+
+h2 {
+  color: #ffff00;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+  color: red;
+  width: 300px;
+  height: 300px;
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */

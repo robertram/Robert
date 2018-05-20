@@ -1,5 +1,22 @@
-$color: #ff00ff;
+$color: #ffff00;
+
+@mixin dropShadow($opacidad) {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, $opacidad);
+  color: red;
+}
 
 h1 {
-color: $color;
+  color: $color;
+  @include dropShadow(0.2);
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+h2 {
+  color: $color;
+  @include dropShadow(0.7);
+  width: 300px;
+  height: 300px;
+  display: block;
 }
